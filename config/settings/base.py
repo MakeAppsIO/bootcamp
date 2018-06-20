@@ -211,5 +211,3 @@ CHANNEL_LAYERS = {
         'ROUTING': 'config.routing.channel_routing',
     }
 }
-# Activate Django-Heroku.
-django_heroku.settings(locals())
