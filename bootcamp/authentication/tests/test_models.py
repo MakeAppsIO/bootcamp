@@ -46,17 +46,17 @@ class TestModels(TestCase):
             likes=0,
             comments=0
         )
-        self.question = Question.objects.create(
-            user=self.other_user, title='This is a sample question',
-            description='This is a sample question description',
-            tags='test1,test2')
-        self.answer = Answer.objects.create(
-            user=self.user,
-            question=self.question,
-            description='A reaaaaally loooong content',
-            votes=0,
-            is_accepted=True
-        )
+        # self.question = Question.objects.create(
+        #     user=self.other_user, title='This is a sample question',
+        #     description='This is a sample question description',
+        #     tags='test1,test2')
+        # self.answer = Answer.objects.create(
+        #     user=self.user,
+        #     question=self.question,
+        #     description='A reaaaaally loooong content',
+        #     votes=0,
+        #     is_accepted=True
+        # )
         self.profile.url = 'trybootcamp.vitorfs.com'
         self.profile.location = 'My City'
         self.profile.job_title = 'Master of Defense Against the Dark Arts.'
