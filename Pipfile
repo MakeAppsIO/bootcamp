@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 gunicorn = "*"
 django-heroku = "*"
+django = "<=2.*"
 
 [dev-packages]
 pylint = "*"
