@@ -5,9 +5,16 @@ body {
 }
 
 header .navbar-brand {
-  font-size: 1.4em;
+  font-size: 3em;
   font-weight: 200;
-  font-family: "Audiowide", cursive;
+  font-family: "Courier New", Bold;
+  color: #5C1997;
+  padding: .5em;
+
+}
+
+.navbar .navbar-default .navbar-fixed-top{
+  background-color: #ffffff;
 }
 
 main .container {
@@ -21,7 +28,9 @@ main .container {
 .page-header h1 {
   margin: 0;
   font-weight: 100;
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: "Courier New", Bold;
+  color: #5C1997;
 }
 
 .no-data {

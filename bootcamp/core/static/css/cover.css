@@ -1,7 +1,3 @@
-body {
-  background-color: #006389;
-}
-
 .cover {
   width: 400px;
   height: 400px;
@@ -16,18 +12,19 @@ body {
   margin: 0;
   font-size: 3em;
   font-weight: 200;
-  font-family: "Audiowide", cursive;
-  color: #92c35e;
+  font-family: "Courier", bold;
+  color: #5C1997;
   text-align: center;
-  text-shadow: 1px 1px 0 #333333;
+  /* text-shadow: 1px 1px 0 #333333; */
   line-height: 70px;
 }
 
 .login {
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
   width: 100%;
   height: 330px;
   border-radius: 7px;
+  font-family: 'Courier New', bold;
 }
 
 .login {
